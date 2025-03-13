@@ -21,7 +21,7 @@ This project implements a Deep Convolutional Generative Adversarial Network (DcG
 
 
 📂 Project Structure
-
+```
 MNIST-with-DcGAN/
 │── data/                 # Dataset (if applicable)
 │── models/               # Saved trained models
@@ -32,23 +32,23 @@ MNIST-with-DcGAN/
 │── requirements.txt      # Dependencies list
 │── README.md             # Project documentation
 │── LICENSE               # MIT License
-
+```
 📦 Installation & Setup
 
 🔹 Step 1: Clone the Repository
 
-bash```
+```bash
 git clone https://github.com/EugenePau/MNIST-with-DcGAN.git
 cd MNIST-with-DcGAN
 ```
 🔹 Step 2: Create a Virtual Environment (Optional but Recommended)
-bash```
+```bash
 python -m venv venv
 source venv/bin/activate   # On macOS/Linux
 venv\Scripts\activate      # On Windows
 ```
 🔹 Step 3: Install Dependencies
-bash```
+```bash
 pip install -r requirements.txt
 ```
 
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 Run the following command to train the DcGAN on the MNIST dataset:
 
 
-bash```
+```bash
 python main.py --epochs 50 --batch_size 128
 (Modify epochs and batch_size as needed.)
 ```
