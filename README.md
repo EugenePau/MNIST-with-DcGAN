@@ -76,11 +76,9 @@ python main.py --epochs 50 --batch_size 128
 
 📈 Example Generated Images
 
-🖼️ Sample Output from the Trained GAN
-
 After training, the generator produces images like these:
 
-![Generated Digits](images/generated_digits.png)
+![Generated Digits](generated_digits.png)
 
 
 ------------------------------------------------------------------------------------------------------------------
